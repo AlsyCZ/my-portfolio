@@ -1,6 +1,6 @@
-import router from './src/assets/router.png'
-import pc from './src/assets/pc.png'
-import work from './src/assets/work.png'
+import router from '../assets/router.png'
+import pc from '../assets/pc.png'
+import work from '../assets/work.png'
 export default function Projects() {
   return (
     <section id="projects" className="bg-gray-100 pt-4 pb-12 px-4 w-full">

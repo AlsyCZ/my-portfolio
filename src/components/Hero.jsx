@@ -4,7 +4,7 @@ export default function Hero() {
       {/* Pozadí s obrázkem, overlay a texty */}
       <div className="relative w-full h-[45vh] sm:h-[50vh] flex items-center justify-center">
         <img
-          src="/src/assets/bacn.jpg"
+          src="/bacn.jpg"
           alt="Pozadí Hero"
           className="absolute inset-0 w-full h-full object-cover object-[center_30%] sm:object-center opacity-100 transition-all duration-300"
         />

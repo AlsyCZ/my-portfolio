@@ -8,7 +8,9 @@ export default function Hero() {
           alt="Pozadí Hero"
           className="absolute inset-0 w-full h-full object-cover object-[center_30%] sm:object-center opacity-100 transition-all duration-300"
         />
-        <div className="relative z-10 flex flex-col items-center justify-center w-full h-full bg-black/40">
+          {/* Tmavší overlay přes obrázek */}
+          <div className="absolute inset-0 w-full h-full bg-black/65 z-10 pointer-events-none" />
+          <div className="relative z-20 flex flex-col items-center justify-center w-full h-full">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-white drop-shadow-lg px-4 text-center">
             Vítejte v mém portfoliu!
           </h2>
@@ -19,7 +21,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-wide text-center drop-shadow-lg">O mě</h1>
         <p className="text-2xl md:text-3xl text-center leading-relaxed font-medium max-w-5xl text-gray-900">
           Jmenuji se Aleš Mrázek, studuji Aplikovanou informatiku na vysoké škole UJEP v Ústí nad Labem, baví mě mobilní i počítačový hardware, sítě a programování.<br className="hidden md:block" />
-           Ve svém volném čase se taky věnuji cvičení a hře na elektrickou či akustickou kytaru.<br className="hidden md:block" />
+           Ve svém volném čase se také věnuji cvičení a hře na elektrickou či akustickou kytaru.<br className="hidden md:block" />
           Toto je moje osobní stránka (moje portfolio), kde najdete mé projekty, zkušenosti a můj kontakt.
         </p>
       </div>

@@ -6,12 +6,12 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 p-4 bg-gray-900 text-white shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
-        <h1 className="text-xl font-bold">Moje Portfolio</h1>
+        <a href="#about" className="text-xl font-extrabold">Moje Portfolio</a>
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-6">
-          <a href="#about" className="hover:text-blue-400">O mně</a>
-          <a href="#projects" className="hover:text-blue-400">Projekty a zkušenosti</a>
-          <a href="#contact" className="hover:text-blue-400">Kontakt</a>
+          <a href="#about" className="hover:text-blue-400 font-bold">O mně</a>
+          <a href="#projects" className="hover:text-blue-400 font-bold">Projekty a zkušenosti</a>
+          <a href="#contact" className="hover:text-blue-400 font-bold">Kontakt</a>
         </div>
         {/* Hamburger icon */}
         <button
@@ -29,21 +29,21 @@ export default function Navbar() {
         <div className="md:hidden absolute top-full left-0 w-full bg-gray-900 shadow-lg flex flex-col items-center py-4 animate-fade-in z-50">
           <a
             href="#about"
-            className="py-2 px-6 w-full text-center hover:text-blue-400 text-lg"
+            className="py-2 px-6 w-full text-center hover:text-blue-400 text-lg font-bold"
             onClick={() => setMenuOpen(false)}
           >
             O mně
           </a>
           <a
             href="#projects"
-            className="py-2 px-6 w-full text-center hover:text-blue-400 text-lg"
+            className="py-2 px-6 w-full text-center hover:text-blue-400 text-lg font-bold"
             onClick={() => setMenuOpen(false)}
           >
             Projekty a zkušenosti
           </a>
           <a
             href="#contact"
-            className="py-2 px-6 w-full text-center hover:text-blue-400 text-lg"
+            className="py-2 px-6 w-full text-center hover:text-blue-400 text-lg font-bold"
             onClick={() => setMenuOpen(false)}
           >
             Kontakt

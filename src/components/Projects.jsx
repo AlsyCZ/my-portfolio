@@ -7,7 +7,7 @@ export default function Projects() {
           <div className="p-6 flex-1 flex flex-col justify-between">
             <div>
               <h3 className="text-2xl font-semibold mb-2">HardwareHub</h3>
-              <p className="text-gray-600 mb-4">Můj první větší projekt, jednalo se zde o první větší práci pro ukončení 3. ročníku střední školy. Projekt obsahoval hlavně práci z databázemi. V práci byl také navržen vlastní design frontendu.</p>
+              <p className="text-gray-600 mb-4">Můj první větší projekt, jednalo se zde o práci pro ukončení 3. ročníku střední školy. Projekt obsahoval hlavně hodně práce z databázemi. Poprvé jsem zde také navrhoval složitější design frontendu.</p>
             </div>
             <a href="https://github.com/AlsyCZ/projekt" target="_blank" className="text-blue-500 font-semibold hover:underline">Zobrazit GitHub repositář</a>
           </div>
@@ -17,7 +17,7 @@ export default function Projects() {
           <div className="p-6 flex-1 flex flex-col justify-between">
             <div>
               <h3 className="text-2xl font-semibold mb-2">Web pro správu síťových zařízení</h3>
-              <p className="text-gray-600 mb-4">Tento projekt jsem měl jako maturitní projektovou práci na střední škole. Jednalo se o projekt kde cílem bylo si vyzkoušet práci s Mikrotik routery a API RouterOS.</p>
+              <p className="text-gray-600 mb-4">Tento projekt jsem měl jako maturitní projektovou práci na střední škole. Jednalo se o projekt kde bylo cílem si vyzkoušet práci s Mikrotik routery a API RouterOS.</p>
             </div>
             <a href="https://github.com/AlsyCZ/Web-for-managing-network-devices" target="_blank" className="text-blue-500 font-semibold hover:underline">Zobrazit GitHub repositář</a>
           </div>
@@ -29,8 +29,8 @@ export default function Projects() {
         {/* Zkušenost 1 */}
         <div className="bg-white shadow-lg rounded-2xl overflow-hidden flex flex-col items-center p-6">
           <img src="/src/assets/router.jpg" alt="Mikrotik" className="w-34 h-34 object-contain mb-4" />
-          <h3 className="text-xl font-semibold mb-2 text-center">Práce s sítěmi</h3>
-          <p className="text-gray-600 text-center">V rámci projektu s Miktoritk routery jsem se více sblížil se síťařinou. Vylepšil si doma internet. Zjistil co je to AP, jak nastavit VPN. Co to je a jak nastavit DHCP? Nastavil jsem si svojí NASku.</p>
+          <h3 className="text-xl font-semibold mb-2 text-center">Správa a konfigurace sítí</h3>
+          <p className="text-gray-600 text-center">V rámci projektu s Mikrotik routery jsem se více sblížil se síťařinou. Vylepšil jsem si doma internet pomocí Powerline. Zjistil co je to AP, DHCP, jak nastavit VPN. Nastavil jsem si také svojí NASku.</p>
         </div>
         {/* Zkušenost 2 */}
         <div className="bg-white shadow-lg rounded-2xl overflow-hidden flex flex-col items-center p-6">
@@ -41,8 +41,8 @@ export default function Projects() {
         {/* Zkušenost 3 */}
         <div className="bg-white shadow-lg rounded-2xl overflow-hidden flex flex-col items-center p-6">
           <img src="/src/assets/work.jpg" alt="Mobilní elektronika" className="w-34 h-34 object-contain mb-4" />
-          <h3 className="text-xl font-semibold mb-2 text-center">Práce s mobilní elektronikou</h3>
-          <p className="text-gray-600 text-center">Rád také pracuji s mobilními telefony. Opravil jsem již několik telefonů (iPhony i Andoridy) a několik jich prodal jako přivýdělek.</p>
+          <h3 className="text-xl font-semibold mb-2 text-center">Servis mobilní elektroniky</h3>
+          <p className="text-gray-600 text-center">Rád také pracuji s mobilními telefony. Opravil jsem již několik telefonů (iPhony i Androidy) a několik jich také prodal pro zpětný výdělek.</p>
         </div>
       </div>
     </section>
